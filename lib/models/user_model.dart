@@ -13,7 +13,7 @@ class UserModel {
   }
 
   void addFavorite(ProductModel product) {
-    //verifica se o prosuto já está na lista de favoritos do usuário
+    //verifica se o produto já está na lista de favoritos do usuário
     if (!favorites.contains(product)) {
       favorites.add(product);
     }
